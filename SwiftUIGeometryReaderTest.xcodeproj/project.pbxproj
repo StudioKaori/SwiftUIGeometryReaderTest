@@ -12,6 +12,7 @@
 		4384609A290FFF400024F7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43846099290FFF400024F7AF /* Assets.xcassets */; };
 		4384609D290FFF400024F7AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4384609C290FFF400024F7AF /* Preview Assets.xcassets */; };
 		438460A4290FFFC00024F7AF /* GeometryRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438460A3290FFFC00024F7AF /* GeometryRectangle.swift */; };
+		438460A6291006410024F7AF /* GeometryRectangle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438460A5291006410024F7AF /* GeometryRectangle2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		43846099290FFF400024F7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4384609C290FFF400024F7AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		438460A3290FFFC00024F7AF /* GeometryRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryRectangle.swift; sourceTree = "<group>"; };
+		438460A5291006410024F7AF /* GeometryRectangle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryRectangle2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				43846095290FFF400024F7AF /* SwiftUIGeometryReaderTestApp.swift */,
 				43846097290FFF400024F7AF /* ContentView.swift */,
 				438460A3290FFFC00024F7AF /* GeometryRectangle.swift */,
+				438460A5291006410024F7AF /* GeometryRectangle2.swift */,
 				43846099290FFF400024F7AF /* Assets.xcassets */,
 				4384609B290FFF400024F7AF /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				43846098290FFF400024F7AF /* ContentView.swift in Sources */,
 				438460A4290FFFC00024F7AF /* GeometryRectangle.swift in Sources */,
+				438460A6291006410024F7AF /* GeometryRectangle2.swift in Sources */,
 				43846096290FFF400024F7AF /* SwiftUIGeometryReaderTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
