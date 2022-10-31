@@ -20,10 +20,10 @@ struct GeometryRectangle: View {
 						Text("Y: \(Int(geo.frame(in: .global).origin.y))")
 						Text("Width: \(Int(geo.frame(in: .global).width))")
 						Text("Height: \(Int(geo.frame(in: .global).height))")
-						Text("Size: \(Int(geo.size.debugDescription))")
+						Text("Size: \(geo.size.debugDescription)")
 					}
 				)
-				.frame(height: 100)
+				.frame(height: 200)
 		}
 	}
 }

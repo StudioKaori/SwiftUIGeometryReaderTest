@@ -10,8 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
 			ScrollView {
-				Text("Hello")
-			
+				VStack {
+					Text("Hello")
+					GeometryRectangle(color: .pink)
+					GeometryRectangle(color: .blue)
+						.offset(x: 10, y: 0)
+					
+					ZStack {
+						GeometryRectangle(color: .brown)
+							.offset(x:30, y: 0)
+					}
+					.offset(x: 10, y: 0)
+				}
+				
 			}
     }
 }
